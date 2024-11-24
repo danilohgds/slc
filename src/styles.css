@@ -12,6 +12,7 @@
   color: #000;
   font-family: "Space Grotesk";
   width: 50%;
+  min-width: 300px;
   text-align: center;
   font-size: 20;
   font-weight: 600;
@@ -111,7 +112,7 @@ main {
 
 .nav__link:hover,
 .nav__link:focus {
-  color: rgba(45, 150, 225, 1);
+  color: rgb(11, 71, 113);
 }
 
 .hamburger {
@@ -122,7 +123,7 @@ main {
 .bar {
   height: 2px;
   width: 25px;
-  background-color: #fff;
+  background-color: #0B334E;
   margin: 5px 0;
   opacity: 0.8;
   transition: all 0.4s ease-in-out;
@@ -157,9 +158,10 @@ main {
   }
   .nav {
     position: fixed;
+    display: block;
     top: 60px;
     left: 0;
-    background-color: rgb(19, 22, 26);
+    background-color: #fff;
     width: 100%;
     padding: 10px 0 25px;
     transform: translateX(-100%);
